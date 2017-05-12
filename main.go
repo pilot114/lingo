@@ -10,20 +10,26 @@ import (
     "sort"
 )
 
-// A data structure to hold key/value pairs
 type Pair struct {
 	Key   string
 	Value int
 }
 
-// A slice of pairs that implements sort.Interface to sort by values
 type PairList []Pair
 
 func (p PairList) Len() int           { return len(p) }
 func (p PairList) Swap(i, j int)      { p[i], p[j] = p[j], p[i] }
 func (p PairList) Less(i, j int) bool { return p[i].Value < p[j].Value }
 
-func ValidLines(filename string) (c chan string) {
+// определяет, как слова извлекаются из текста
+type WordConf struct {
+    Symbols   string
+    MinLength int
+    MaxCount  int
+    StopWords []string
+}
+
+func getLines(filename string) (c chan string) {
     c = make(chan string)
     buff := ""
     go func() {
@@ -45,7 +51,7 @@ func ValidLines(filename string) (c chan string) {
                 return
             }
             // очистка от мусорных символов
-            line = reg.ReplaceAllString(line, "")
+            line = reg.ReplaceAllString(line, " ")
             if line == "" {
                 continue
             }
@@ -57,13 +63,10 @@ func ValidLines(filename string) (c chan string) {
     return c
 }
 
-func Sort() {
-	
-}
-
 func main() {
+
 	words := make(map[string]int)
-    for line := range ValidLines("lordring.txt") {
+    for line := range getLines("lordring.txt") {
     	for _, w := range strings.Fields(strings.ToLower(line)) {
 			words[w]++
 		}
@@ -76,5 +79,6 @@ func main() {
 	}
 	sort.Sort(sortWords)
 	
-    fmt.Println(len(sortWords))
+    // fmt.Println(len(sortWords))
+    fmt.Println(sortWords)
 }
