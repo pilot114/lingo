@@ -1,0 +1,394 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"s",
+				"storage"
+			],
+			[
+				"var",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.go",
+			"settings":
+			{
+				"buffer_size": 1706,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/oleg/sources/go",
+		"/home/oleg/sources/go/lingo"
+	],
+	"file_history":
+	[
+		"/home/oleg/sources/go/lingo/lordring.txt",
+		"/home/oleg/sources/go/lingo/.gitignore",
+		"/home/oleg/mail/one/tips.md",
+		"/home/oleg/mail/one/vpn.txt",
+		"/home/oleg/mail/one/code.md",
+		"/home/oleg/mail/one/other.md",
+		"/home/oleg/sources/lp/clicker/app/Console/Commands/PushCover.php",
+		"/home/oleg/sources/lp/clicker/app/Services/ImageProccessing.php",
+		"/home/oleg/sources/lp/laradock/workspace/crontab/laradock",
+		"/home/oleg/sources/lp/laradock/workspace/Dockerfile-71",
+		"/home/oleg/sources/lp/clicker/app/Services/VkApi.php",
+		"/home/oleg/sources/lp/clicker/storage/public/cover2.png",
+		"/home/oleg/sources/lp/laradock/docker-compose.yml",
+		"/home/oleg/sources/lp/laradock/.env",
+		"/home/oleg/sources/lp/laradock/workspace/Dockerfile-70",
+		"/home/oleg/sources/lp/laradock/workspace/aliases.sh",
+		"/home/oleg/sources/lp/laradock/env-example",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php",
+		"/home/oleg/sources/lp/clicker/app/Console/Kernel.php",
+		"/home/oleg/sources/lp/clicker/app/Http/Kernel.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+		"/home/oleg/sources/lp/clicker/vendor/symfony/http-kernel/HttpKernel.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Contracts/Routing/Registrar.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Session/TokenMismatchException.php",
+		"/home/oleg/sources/lp/clicker/app/Http/Middleware/VerifyCsrfToken.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Auth/Events/Logout.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php",
+		"/home/oleg/sources/lp/clicker/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php",
+		"/home/oleg/sources/lp/clicker/vendor/symfony/http-foundation/Cookie.php",
+		"/home/oleg/sources/lp/clicker/app/Http/Middleware/EncryptCookies.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Contracts/Http/Kernel.php",
+		"/home/oleg/sources/lp/clicker/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/home/oleg/sources/lp/clicker/app/Http/Middleware/TrimStrings.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Http/Exceptions/PostTooLargeException.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+		"/home/oleg/sources/lp/clicker/vendor/symfony/http-foundation/ParameterBag.php",
+		"/home/oleg/sources/lp/clicker/vendor/laravel/framework/src/Illuminate/Foundation/Http/Exceptions/MaintenanceModeException.php",
+		"/home/oleg/sources/project_analyze/functions.php",
+		"/home/oleg/sources/pymorphy/20_headers.txt",
+		"/home/oleg/sources/pymorphy/synonyms.txt",
+		"/home/oleg/sources/pymorphy/ui/index.html",
+		"/home/oleg/sources/pymorphy/vacancies_headers.ipynb",
+		"/home/oleg/sources/pymorphy/ui/data.json",
+		"/home/oleg/mail/one/ES.md",
+		"/home/oleg/mail/one/Exceptions.md",
+		"/home/oleg/mail/one/ML.md",
+		"/home/oleg/sources/pymorphy/vacancy.py",
+		"/home/oleg/mail/one/Job offer Чулков Олег.pdf",
+		"/home/oleg/mail/one/progit.md",
+		"/home/oleg/sources/pymorphy/headers_10_fixed.txt",
+		"/home/oleg/sources/pymorphy/lordring.txt",
+		"/home/oleg/sources/concource/docker-compose.yml",
+		"/home/oleg/mail/one/calc.php",
+		"/home/oleg/mail/one/1article.md",
+		"/home/oleg/sources/project_analyze/index.php",
+		"/home/oleg/companyWithVacancies.csv",
+		"/home/oleg/sources/rabbitmq/index.php",
+		"/home/oleg/mail/one/aaa.jpg",
+		"/home/oleg/mail/one/Fridays.md",
+		"/home/oleg/mail/one/job.md",
+		"/home/oleg/one/progit.md",
+		"/home/oleg/one/tips.md",
+		"/home/oleg/one/job.md",
+		"/home/oleg/one/code.md",
+		"/home/oleg/one/calc.php",
+		"/home/oleg/hidecode/README.md",
+		"/home/oleg/one/bd.php",
+		"/home/oleg/fsdf",
+		"/home/oleg/sources/job/templates/default/_bootstrapMenu.tpl",
+		"/home/oleg/tips.md",
+		"/home/oleg/sources/job/scripts/Job/Api/Vacancies.php",
+		"/home/oleg/sources/job/scripts/Job/Trait/DataTransfer.php",
+		"/home/oleg/sources/job/scripts/Job/Validator/Auth/ChangePassword.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/oleg/sources/lp/clicker/vendor"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"int",
+			"))\n",
+			"mongo",
+			"middlewareGroups",
+			"middleware",
+			"TransformsRequest",
+			"TrimStrings",
+			"',\n",
+			"диспечер",
+			"info",
+			"node",
+			"enti",
+			"ин",
+			"инд",
+			"инде",
+			"индекс",
+			"publ",
+			"инд",
+			"инде",
+			"индек",
+			"индекс",
+			"redis",
+			"correct",
+			"\n\t",
+			"('\\",
+			"[]\n",
+			"tag",
+			"();",
+			"es",
+			"mongo",
+			"очер",
+			"!\"\n",
+			"сам",
+			"conf",
+			"version",
+			"2017-02-16",
+			"2017-02",
+			"2017-16",
+			"\"\n",
+			"127023247",
+			"wc",
+			"лог",
+			"логи",
+			"тест",
+			"логи",
+			"log",
+			"tail -f /data/soft/php56/var/log/php*",
+			"contains",
+			"push",
+			"l",
+			"rename",
+			"Это",
+			"\"\n",
+			"://",
+			"getEmail",
+			"\t\t",
+			"\n\t",
+			"key",
+			"df",
+			"()",
+			"cat",
+			"slack",
+			"tail -f"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lingo.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_bootstrapmenu.tpl",
+				"templates/default/_bootstrapMenu.tpl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/sources/lp/clicker/app/Http/pa.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 390.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

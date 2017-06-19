@@ -38,7 +38,7 @@ func getLines(filename string) (c chan string) {
             close(c)
             return
         }
-        reg, err := regexp.Compile("[^A-Za-z0-9а-яА-Я ]+")
+        reg, err := regexp.Compile("[^A-Za-z ]+")
         if err != nil {
             log.Fatal(err)
         }
@@ -80,5 +80,7 @@ func main() {
 	sort.Sort(sortWords)
 	
     // fmt.Println(len(sortWords))
-    fmt.Println(sortWords)
+    for i := 0; i < len(sortWords); i++ {
+        fmt.Println(sortWords[i])
+    }
 }

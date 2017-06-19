@@ -9,3 +9,9 @@ docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp golang bash
 
 go get -d -v
 go install -v
+
+
+
+# fast-ping
+
+go get -u github.com/tatsushid/go-fastping
